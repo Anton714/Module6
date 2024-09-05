@@ -21,7 +21,7 @@ class Eagle:
 
 class Pegasus(Horse, Eagle):
 
-    def __init__(self):  # x_dis
+    def __init__(self):  
         Horse.__init__(self)
         Eagle.__init__(self)
 
